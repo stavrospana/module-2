@@ -1,0 +1,254 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root {
+--dark: black;
+--light: beige;
+--navlink-color: rgb(42, 94, 192);
+}
+
+.body {
+    padding: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    background: white;
+    color:aliceblue;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.4;
+  }
+  
+  .header {
+   padding: 20px;
+   font-family:Arial, Helvetica, sans-serif;
+    background-color:lightslategrey;
+    color:black;
+  }
+  
+  .header h1 .Panagiotopoulos {
+    display:inline-block;
+    font-size: 48px;
+    color: red;
+  }
+  .header div ul {
+    list-style-type:none;
+  }
+  
+  .header div ul li{
+    display:inline-block;
+    margin-left: 25px;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  p {
+    font-size: 16px;
+  }
+
+  .information{
+    height: 100px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+  }
+  .clear-both {
+    clear: both;
+    }
+
+    .about-me img {
+      border-color:deepskyblue;
+                      border-width: 5px;
+                      border-style: solid;
+                    
+      }
+      .img-study:hover{
+        color:red;
+      }
+      
+  .float-left{
+    float:left;
+    margin-right: 25px;
+  }
+  .float-right{
+    float:right;
+    margin-left: 25px;
+  }
+
+  .h1 {   
+    display:flex;
+    flex-wrap:wrap;
+     font-size: 500%;
+    font-family:Arial, Helvetica, sans-serif;
+    max-block-size: 10%;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    color:blue;
+  }
+
+.about-me{
+  text-align:justify;
+  font-size:24px;
+    margin-bottom: 20px;
+    padding: 50px;
+    height:300px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:rgb(197, 194, 189);
+    color:black;
+
+}
+.work{
+  font-size:24px;
+  text-align:left;
+    margin-bottom:20px;
+    padding:50px;
+    height:500px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:rgb(197, 194, 189);;
+    color:black;
+}
+a:hover img-border{
+  color:red;
+}
+.image-border {
+  border-color:deepskyblue;
+    border-width: 5px;
+    border-style: solid;
+}
+.img-study {
+  background: url('../assets/images/Screenshot 2023-07-20 115458.png');
+
+}
+
+.img-web {
+  background: url('../assets/images/Screenshot 2023-07-20 115345.png');
+}
+
+.image-contact{
+  display:flex;
+  flex-wrap:wrap;
+background: url("../assets/images/25231.png");
+max-height:50px;
+max-width:50px;
+margin-left:50%;
+}
+
+
+.img-glob {
+  display:flex;
+  flex-wrap:wrap;
+  height: 300px;
+  width: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+}
+.img-glob p {
+  font-size: 14px;
+  position: absolute;
+  left: 2px;
+  bottom: 2px;
+  color: #eb00cc;
+  background: #ffffff;
+  padding: 5px;
+  font-weight: bold;
+}
+.work img{
+    display:block;
+    margin:10px auto;
+    width:150px;
+    height: 100px;
+    
+}
+
+.contact-me{
+  align-content:center;
+  font:bolder;
+  font-size:16px;
+  font-family:Arial, Helvetica, sans-serif;
+  margin-bottom:20px;
+    padding:50px;
+    height:150px;
+    color:black;
+   
+
+}
+  nav ul {
+    display: flex;
+    justify-content:flex-start;
+    min-width: 300px;
+  }
+  
+  nav a:first-child {
+    padding-left: 0px !important;
+    }
+  nav a {
+    margin-left: 10px;
+    color: #020202;
+    font-weight: bold;
+    text-decoration-style:initial;
+  }
+  nav a:hover {
+    color:red;
+  }
+  
+  main {
+    display: flex;
+    flex: 1 1 0;
+    max-width: 1200px;
+    margin: 2% auto;
+  }
+  
+  .section {
+    flex: 1 1 0;
+    padding-right: 5%;
+  }
+  
+  article {
+    border-bottom: 1px solid #d8a47f;
+  }
+  
+  
+  aside {
+    width: 25%;
+  }
+  
+  input,
+  button {
+    width: 100%;
+    margin: 2% 0;
+    padding: 1%;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    background-color:black;
+    color: #fff;
+  }
+  
+  @media screen and (max-width: 800px) {
+    header,
+    main {
+      flex-wrap: wrap;
+    }
+    .card{
+      width: 100%;
+    }
+  
+  
+    section {
+      padding-right: 0;
+    }
+  
+    aside {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  
